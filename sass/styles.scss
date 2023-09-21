@@ -1,0 +1,31 @@
+#logo {
+border: 1px solid red;
+   
+}
+
+.header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+    .login-button{
+        padding: 0.5rem;
+        overflow: normal;
+        background-color: transparent;
+    }
+
+    .create-account{
+        padding: 0.5rem;
+        overflow: normal;
+        background-color: transparent;
+        border: 2px solid blue;
+    }
+}
+
+.caja-principal{
+    border: 2px solid black;
+    display: flex;
+
+}

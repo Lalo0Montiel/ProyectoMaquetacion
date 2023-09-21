@@ -1,1 +1,27 @@
-/*# sourceMappingURL=styles.css.map */
+#logo {
+  border: 1px solid red;
+}
+
+.header {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.header .login-button {
+  padding: 0.5rem;
+  overflow: normal;
+  background-color: transparent;
+}
+.header .create-account {
+  padding: 0.5rem;
+  overflow: normal;
+  background-color: transparent;
+  border: 2px solid blue;
+}
+
+.caja-principal {
+  border: 2px solid black;
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
