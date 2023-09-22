@@ -33,7 +33,28 @@ border: 1px solid red;
     .lado-izquierdo{
         border: 2px solid black;
         flex-grow: 1;
+        .create-account-iz {
+            background-color: transparent;
+            border: 2px solid blue;
+            text-decoration: none;
+            margin: 10 px;
+            
         }
+        .login-button-iz {
+            text-decoration: none;
+            margin: 10px;
+        }
+        div {
+            margin: 10px;
+        }
+        .check{
+            background-color: transparent;
+            border: 2px solid blue;
+            text-decoration: none;
+            margin: 10 px;
+        }
+        }
+        
     
     main{
         border: 2px solid red;
