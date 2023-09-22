@@ -27,5 +27,26 @@ border: 1px solid red;
 .caja-principal{
     border: 2px solid black;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 
+    .lado-izquierdo{
+        border: 2px solid black;
+        flex-grow: 1;
+        }
+    
+    main{
+        border: 2px solid red;
+        flex-grow: 4;
+
+
+        }
+    .lado-derecho{
+        border: 2px solid black;
+        flex-grow: 2;
+    }
 }
+    
+    
+
+
