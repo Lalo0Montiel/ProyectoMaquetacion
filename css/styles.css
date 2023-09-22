@@ -35,7 +35,8 @@
   border: 2px solid red;
   flex-grow: 4;
 }
-.caja-principal .lado-derecho {
+
+.lado-derecho {
   border: 2px solid black;
   flex-grow: 2;
 }/*# sourceMappingURL=styles.css.map */
