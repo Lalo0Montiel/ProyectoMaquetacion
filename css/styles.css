@@ -57,4 +57,13 @@
 .caja-principal .lado-derecho {
   border: 2px solid black;
   flex-grow: 2;
+}
+.caja-principal .aside {
+  border: 1px;
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+}
+.caja-principal .aside p {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
