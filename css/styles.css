@@ -1,5 +1,5 @@
 #logo {
-  border: 1px solid red;
+  border: 1px solid rgb(231, 228, 228);
 }
 
 body {
@@ -26,13 +26,17 @@ body {
 }
 
 .caja-principal {
-  border: 2px solid black;
+  border: 2px solid rgb(231, 228, 228);
   display: flex;
   width: 80%;
   margin: 0 auto;
+  /* lado izquierdo */
+  /*________________*/
+  /* central */
+  /*_____________*/
 }
 .caja-principal .lado-izquierdo {
-  border: 2px solid black;
+  border: 2px solid rgb(231, 228, 228);
   flex-grow: 1;
 }
 .caja-principal .lado-izquierdo .create-account-iz {
@@ -83,7 +87,10 @@ body {
   border: 2px solid rgb(233, 232, 232);
   flex-direction: column;
   overflow: auto;
+}
+.caja-principal .lado-izquierdo .box-popular a {
   text-decoration: none;
+  color: black;
 }
 .caja-principal .lado-izquierdo ul > li:hover {
   background-color: gray;
@@ -98,12 +105,51 @@ body {
   color: white;
   text-decoration: underline;
 }
+.caja-principal .lado-izquierdo ul li > a {
+  text-decoration: none;
+  color: black;
+}
 .caja-principal main {
-  border: 2px solid red;
+  border: 2px solid rgb(231, 228, 228);
   flex-grow: 4;
 }
+.caja-principal .central {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+.caja-principal .central .imgc {
+  margin: 30px;
+}
+.caja-principal .central .bc > a {
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+.caja-principal .central .bc > a:hover {
+  background-color: white;
+  color: blue;
+}
+.caja-principal .central .textcc {
+  margin: 10px;
+}
+.caja-principal .central .textcc a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .central .textcc a:hover {
+  color: blue;
+}
+.caja-principal .central .box-white {
+  background-color: white;
+  border: 2px solid rgb(231, 228, 228);
+}
+.caja-principal .central .textf {
+  margin: 10px;
+}
 .caja-principal .lado-derecho {
-  border: 2px solid black;
+  border: 2px solid rgb(231, 228, 228);
   flex-grow: 2;
 }
 .caja-principal .aside {
