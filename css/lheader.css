@@ -1,0 +1,35 @@
+#logo {
+  border: 1px solid rgb(231, 228, 228);
+  margin-left: 10%;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.header .login-button {
+  padding: 0.5rem;
+  overflow: normal;
+  background-color: transparent;
+  text-decoration: none;
+}
+.header .create-account {
+  padding: 0.5rem;
+  overflow: normal;
+  background-color: transparent;
+  border: 2px solid blue;
+  text-decoration: none;
+}
+.header .login-button:hover {
+  background-color: rgb(151, 189, 246);
+  color: blue;
+  text-decoration: underline;
+}
+.header .create-account:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}/*# sourceMappingURL=lheader.css.map */

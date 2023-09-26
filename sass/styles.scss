@@ -1,29 +1,14 @@
 #logo {
-border: 1px solid rgb(231, 228, 228);
-   
-}
+    border: 1px solid rgb(231, 228, 228);
+    margin-left: 10%;
+       
+    }
+/*header*/
+@import "header";
+/*________________*/
+
 body{
     background-color: rgb(233, 232, 232);
-}
-.header{
-    background-color: beige;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-
-    .login-button{
-        padding: 0.5rem;
-        overflow: normal;
-        background-color: transparent;
-    }
-
-    .create-account{
-        padding: 0.5rem;
-        overflow: normal;
-        background-color: transparent;
-        border: 2px solid blue;
-    }
 }
 
 .caja-principal{
