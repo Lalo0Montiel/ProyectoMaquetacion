@@ -2,6 +2,10 @@
   border: 1px solid red;
 }
 
+body {
+  background-color: rgb(233, 232, 232);
+}
+
 .header {
   background-color: beige;
   display: flex;
@@ -36,10 +40,28 @@
   border: 2px solid blue;
   text-decoration: none;
   margin: 10 px;
+  width: 180px;
+  text-align: center;
+}
+.caja-principal .lado-izquierdo .button-iz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .caja-principal .lado-izquierdo .login-button-iz {
   text-decoration: none;
-  margin: 10px;
+  margin: 0 auto;
+}
+.caja-principal .lado-izquierdo .create-account-iz:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}
+.caja-principal .lado-izquierdo .login-button-iz:hover {
+  background-color: gray;
+  text-decoration: underline;
+  width: 185px;
+  text-align: center;
 }
 .caja-principal .lado-izquierdo div {
   margin: 10px;
@@ -48,7 +70,33 @@
   background-color: transparent;
   border: 2px solid blue;
   text-decoration: none;
-  margin: 10 px;
+  margin: 0 auto;
+}
+.caja-principal .lado-izquierdo .box-white {
+  background-color: white;
+  border: 2px solid rgb(231, 228, 228);
+}
+.caja-principal .lado-izquierdo .box-popular {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(233, 232, 232);
+  flex-direction: column;
+  overflow: auto;
+  text-decoration: none;
+}
+.caja-principal .lado-izquierdo ul > li:hover {
+  background-color: gray;
+  text-decoration: underline;
+}
+.caja-principal .box-popular > a:hover {
+  background-color: gray;
+  text-decoration: underline;
+}
+.caja-principal .check:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
 }
 .caja-principal main {
   border: 2px solid red;
