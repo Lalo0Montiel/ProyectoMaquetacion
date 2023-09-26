@@ -175,4 +175,49 @@ body {
 }
 .caja-principal .aside p {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .lado-izquierdo {
+    visibility: hidden;
+  }
+  .caja-principal {
+    width: 100%;
+  }
+  .lado-izquierdo {
+    position: fixed;
+  }
+  .lado-derecho {
+    position: fixed;
+    visibility: hidden;
+  }
+  .login-button {
+    position: fixed;
+    visibility: hidden;
+  }
+  .create-account {
+    margin-right: 150px;
+  }
+}
+@media (max-width: 450px) {
+  lado-izquierdo {
+    visibility: hidden;
+  }
+  .caja-principal {
+    width: 100%;
+  }
+  .lado-izquierdo {
+    position: fixed;
+  }
+  .lado-derecho {
+    position: fixed;
+    visibility: hidden;
+  }
+  .login-button {
+    position: fixed;
+    visibility: hidden;
+  }
+  .create-account {
+    margin-right: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
