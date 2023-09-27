@@ -27,22 +27,35 @@ body{
     .lado-derecho{
         border: 2px solid rgb(231, 228, 228);
         flex-grow: 2;
-        
-    }
-    .aside {
-        border: 1px;
-        text-decoration: none;
-        color: blue;
-        text-align: center;
-        p{
-            text-align: center;
+        p>a {
+            text-decoration: none;
+            color: black;
+        }
+        h3>a {
+            text-decoration: none;
+            color: black;
         }
 
+        p>a:hover{
+            color: blue;
+        }
+        h3>a:hover{
+            color: blue;
+        }
+    }
+    aside {
+        .box-white{
+        border: solid 1px #eee;
+        text-decoration: none;
+        text-align: left;
+        background-color: white;
+        border-radius: 5px;
+        }
     }
    
     }
 
-@media (max-width:800px) {
+@media (max-width:768px) {
     .lado-izquierdo {
         visibility: hidden;
     }
@@ -63,11 +76,12 @@ body{
     .create-account{
         margin-right: 150px;
     }
+    }
     
-}
+
 
 @media (max-width:450px) {
-    lado-izquierdo {
+    .lado-izquierdo {
         visibility: hidden;
     }
     .caja-principal{
@@ -77,7 +91,7 @@ body{
         position: fixed;
     }
     .lado-derecho{
-        position: fixed;
+        
         visibility: hidden;
     }
     .login-button{

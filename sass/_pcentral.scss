@@ -8,6 +8,8 @@ main{
         flex-direction: column;
         .imgc {
             margin: 30px;
+            width: 100%;
+            max-width: 450px;
         }
         
         .bc>a{

@@ -135,6 +135,8 @@ body {
 }
 .caja-principal .central .imgc {
   margin: 30px;
+  width: 100%;
+  max-width: 450px;
 }
 .caja-principal .central .bc > a {
   height: 50px;
@@ -167,17 +169,29 @@ body {
   border: 2px solid rgb(231, 228, 228);
   flex-grow: 2;
 }
-.caja-principal .aside {
-  border: 1px;
+.caja-principal .lado-derecho p > a {
   text-decoration: none;
-  color: blue;
-  text-align: center;
+  color: black;
 }
-.caja-principal .aside p {
-  text-align: center;
+.caja-principal .lado-derecho h3 > a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .lado-derecho p > a:hover {
+  color: blue;
+}
+.caja-principal .lado-derecho h3 > a:hover {
+  color: blue;
+}
+.caja-principal aside .box-white {
+  border: solid 1px #eee;
+  text-decoration: none;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .lado-izquierdo {
     visibility: hidden;
   }
@@ -200,7 +214,7 @@ body {
   }
 }
 @media (max-width: 450px) {
-  lado-izquierdo {
+  .lado-izquierdo {
     visibility: hidden;
   }
   .caja-principal {
@@ -210,7 +224,6 @@ body {
     position: fixed;
   }
   .lado-derecho {
-    position: fixed;
     visibility: hidden;
   }
   .login-button {
