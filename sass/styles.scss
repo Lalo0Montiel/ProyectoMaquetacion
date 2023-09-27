@@ -27,22 +27,32 @@ body{
     .lado-derecho{
         border: 2px solid rgb(231, 228, 228);
         flex-grow: 2;
-        
+        p>a {
+            text-decoration: none;
+            color: black;
+        }
+        h3>a {
+            text-decoration: none;
+            color: black;
+        }
+
+        p>a:hover{
+            color: blue;
+        }
+        h3>a:hover{
+            color: blue;
+        }
     }
     .aside {
         border: 1px;
         text-decoration: none;
         color: blue;
         text-align: center;
-        p{
-            text-align: center;
-        }
-
     }
    
     }
 
-@media (max-width:800px) {
+@media (max-width:768px) {
     .lado-izquierdo {
         visibility: hidden;
     }
@@ -63,8 +73,9 @@ body{
     .create-account{
         margin-right: 150px;
     }
+    }
     
-}
+
 
 @media (max-width:450px) {
     lado-izquierdo {

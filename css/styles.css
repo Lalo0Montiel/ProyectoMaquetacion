@@ -167,17 +167,28 @@ body {
   border: 2px solid rgb(231, 228, 228);
   flex-grow: 2;
 }
+.caja-principal .lado-derecho p > a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .lado-derecho h3 > a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .lado-derecho p > a:hover {
+  color: blue;
+}
+.caja-principal .lado-derecho h3 > a:hover {
+  color: blue;
+}
 .caja-principal .aside {
   border: 1px;
   text-decoration: none;
   color: blue;
   text-align: center;
 }
-.caja-principal .aside p {
-  text-align: center;
-}
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .lado-izquierdo {
     visibility: hidden;
   }
