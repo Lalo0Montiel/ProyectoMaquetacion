@@ -57,6 +57,7 @@
 .caja-principal .lado-derecho {
   border: 2px solid black;
   flex-grow: 2;
+  max-width: 25%;
 }
 .caja-principal .aside {
   border: 1px;

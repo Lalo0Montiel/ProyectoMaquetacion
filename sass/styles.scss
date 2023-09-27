@@ -65,8 +65,12 @@ border: 1px solid red;
     .lado-derecho{
         border: 2px solid black;
         flex-grow: 2;
-        
+        max-width: 25%;
+        .discuss-content{
+            
+        }
     }
+    
     .aside {
         border: 1px;
         text-decoration: none;
