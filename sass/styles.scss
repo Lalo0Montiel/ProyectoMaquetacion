@@ -15,6 +15,7 @@ body{
     display: flex;
     width: 80%;
     margin: 0 auto;
+}
 
     /* lado izquierdo */
     @import "ladoiz";
@@ -52,8 +53,7 @@ body{
         border-radius: 5px;
         }
     }
-   
-    }
+    
 
 @media (max-width:768px) {
     .lado-izquierdo {

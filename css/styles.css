@@ -45,16 +45,14 @@ body {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  /* lado izquierdo */
-  /*________________*/
-  /* central */
-  /*_____________*/
 }
-.caja-principal .lado-izquierdo {
+
+/* lado izquierdo */
+.lado-izquierdo {
   border: 2px solid rgb(231, 228, 228);
   flex-grow: 1;
 }
-.caja-principal .lado-izquierdo .create-account-iz {
+.lado-izquierdo .create-account-iz {
   background-color: transparent;
   border: 2px solid blue;
   text-decoration: none;
@@ -62,41 +60,41 @@ body {
   width: 180px;
   text-align: center;
 }
-.caja-principal .lado-izquierdo .button-iz {
+.lado-izquierdo .button-iz {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.caja-principal .lado-izquierdo .login-button-iz {
+.lado-izquierdo .login-button-iz {
   text-decoration: none;
   margin: 0 auto;
 }
-.caja-principal .lado-izquierdo .create-account-iz:hover {
+.lado-izquierdo .create-account-iz:hover {
   background-color: blue;
   color: white;
   text-decoration: underline;
 }
-.caja-principal .lado-izquierdo .login-button-iz:hover {
+.lado-izquierdo .login-button-iz:hover {
   background-color: gray;
   text-decoration: underline;
   width: 185px;
   text-align: center;
 }
-.caja-principal .lado-izquierdo div {
+.lado-izquierdo div {
   margin: 10px;
 }
-.caja-principal .lado-izquierdo .check {
+.lado-izquierdo .check {
   background-color: transparent;
   border: 2px solid blue;
   text-decoration: none;
   margin: 0 auto;
 }
-.caja-principal .lado-izquierdo .box-white {
+.lado-izquierdo .box-white {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
   padding: 10px;
 }
-.caja-principal .lado-izquierdo .box-popular {
+.lado-izquierdo .box-popular {
   display: flex;
   width: 200px;
   height: 200px;
@@ -104,88 +102,95 @@ body {
   flex-direction: column;
   overflow: auto;
 }
-.caja-principal .lado-izquierdo .box-popular a {
+.lado-izquierdo .box-popular a {
   text-decoration: none;
   color: black;
 }
-.caja-principal .lado-izquierdo ul > li:hover {
+.lado-izquierdo ul > li:hover {
   background-color: gray;
   text-decoration: underline;
 }
-.caja-principal .lado-izquierdo .box-popular > a:hover {
+.lado-izquierdo .box-popular > a:hover {
   background-color: gray;
   text-decoration: underline;
 }
-.caja-principal .lado-izquierdo .check:hover {
+.lado-izquierdo .check:hover {
   background-color: blue;
   color: white;
   text-decoration: underline;
 }
-.caja-principal .lado-izquierdo ul li > a {
+.lado-izquierdo ul li > a {
   text-decoration: none;
   color: black;
 }
-.caja-principal main {
+
+/*________________*/
+/* central */
+main {
   border: 2px solid rgb(231, 228, 228);
   flex-grow: 4;
 }
-.caja-principal .central {
+
+.central {
   flex-grow: 3;
   display: flex;
   flex-direction: column;
 }
-.caja-principal .central .imgc {
+.central .imgc {
   width: 100%;
   max-width: 450px;
 }
-.caja-principal .central .bc > a {
+.central .bc > a {
   height: 50px;
   text-decoration: none;
   color: black;
   margin: 10px;
 }
-.caja-principal .central .bc > a:hover {
+.central .bc > a:hover {
   background-color: white;
   color: blue;
 }
-.caja-principal .central .textcc {
+.central .textcc {
   margin: 10px;
 }
-.caja-principal .central .textcc a {
+.central .textcc a {
   text-decoration: none;
   color: black;
 }
-.caja-principal .central .textcc a:hover {
+.central .textcc a:hover {
   color: blue;
 }
-.caja-principal .central .box-white {
+.central .box-white {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
   padding: 20px;
   border-radius: 5px;
 }
-.caja-principal .central .textf {
+.central .textf {
   margin: 10px;
 }
-.caja-principal .lado-derecho {
+
+/*_____________*/
+.lado-derecho {
   border: 2px solid rgb(231, 228, 228);
   flex-grow: 2;
 }
-.caja-principal .lado-derecho p > a {
+.lado-derecho p > a {
   text-decoration: none;
   color: black;
 }
-.caja-principal .lado-derecho h3 > a {
+.lado-derecho h3 > a {
   text-decoration: none;
   color: black;
 }
-.caja-principal .lado-derecho p > a:hover {
+.lado-derecho p > a:hover {
   color: blue;
 }
-.caja-principal .lado-derecho h3 > a:hover {
+.lado-derecho h3 > a:hover {
   color: blue;
 }
-.caja-principal aside .box-white {
+
+aside .box-white {
   border: solid 1px #eee;
   text-decoration: none;
   text-align: left;
