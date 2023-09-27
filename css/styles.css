@@ -94,6 +94,7 @@ body {
 .caja-principal .lado-izquierdo .box-white {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
+  padding: 10px;
 }
 .caja-principal .lado-izquierdo .box-popular {
   display: flex;
@@ -134,7 +135,6 @@ body {
   flex-direction: column;
 }
 .caja-principal .central .imgc {
-  margin: 30px;
   width: 100%;
   max-width: 450px;
 }
@@ -161,6 +161,8 @@ body {
 .caja-principal .central .box-white {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
+  padding: 20px;
+  border-radius: 5px;
 }
 .caja-principal .central .textf {
   margin: 10px;
