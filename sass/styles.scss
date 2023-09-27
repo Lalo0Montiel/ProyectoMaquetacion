@@ -43,11 +43,14 @@ body{
             color: blue;
         }
     }
-    .aside {
-        border: 1px;
+    aside {
+        .box-white{
+        border: solid 1px #eee;
         text-decoration: none;
-        color: blue;
-        text-align: center;
+        text-align: left;
+        background-color: white;
+        border-radius: 5px;
+        }
     }
    
     }
@@ -78,7 +81,7 @@ body{
 
 
 @media (max-width:450px) {
-    lado-izquierdo {
+    .lado-izquierdo {
         visibility: hidden;
     }
     .caja-principal{
@@ -88,7 +91,7 @@ body{
         position: fixed;
     }
     .lado-derecho{
-        position: fixed;
+        
         visibility: hidden;
     }
     .login-button{
