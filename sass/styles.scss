@@ -72,13 +72,12 @@ body{
         visibility: hidden;
     }
     .login-button{
-        position: fixed;
         visibility: hidden;
     }
     .create-account{
         margin-right: 150px;
     }
-    }
+}
     
 
 
@@ -97,7 +96,7 @@ body{
         visibility: hidden;
     }
     .login-button{
-        position: fixed;
+        
         visibility: hidden;
     }
     .create-account {
@@ -118,6 +117,9 @@ body{
       text-decoration: none;
       color: #333;
     }
+    a:hover{
+        color: blue;
+    }
   }
 
   .box-white.hipervinculos{
@@ -134,6 +136,7 @@ body{
  .box-white.links-boxs2{
     margin: 10px 0;
  }
+
 
     
 

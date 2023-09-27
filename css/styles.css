@@ -71,6 +71,10 @@ body {
 .lado-izquierdo .login-button-iz {
   text-decoration: none;
   margin: 0 auto;
+  border: 2px solid white;
+  margin: 10 px;
+  width: 180px;
+  text-align: center;
 }
 .lado-izquierdo .create-account-iz:hover {
   background-color: blue;
@@ -80,7 +84,6 @@ body {
 .lado-izquierdo .login-button-iz:hover {
   background-color: gray;
   text-decoration: underline;
-  width: 185px;
   text-align: center;
 }
 .lado-izquierdo div {
@@ -88,9 +91,11 @@ body {
 }
 .lado-izquierdo .check {
   background-color: transparent;
-  border: 2px solid blue;
+  border: 1px solid blue;
   text-decoration: none;
   margin: 0 auto;
+  border-radius: 5px;
+  padding: 3px;
 }
 .lado-izquierdo .box-white {
   background-color: white;
@@ -220,7 +225,6 @@ aside .box-white {
     visibility: hidden;
   }
   .login-button {
-    position: fixed;
     visibility: hidden;
   }
   .create-account {
@@ -241,7 +245,6 @@ aside .box-white {
     visibility: hidden;
   }
   .login-button {
-    position: fixed;
     visibility: hidden;
   }
   .create-account {
@@ -259,6 +262,9 @@ aside .box-white {
 .box-white.links-boxs2 a, .box-white.hipervinculos a, .box-white.boxprimera a {
   text-decoration: none;
   color: #333;
+}
+.box-white.links-boxs2 a:hover, .box-white.hipervinculos a:hover, .box-white.boxprimera a:hover {
+  color: blue;
 }
 
 .box-white.hipervinculos {

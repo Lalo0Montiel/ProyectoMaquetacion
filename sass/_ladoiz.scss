@@ -17,6 +17,10 @@ flex-grow: 1;
 .login-button-iz {
     text-decoration: none;
     margin: 0 auto;
+    border: 2px solid white;
+    margin: 10 px;
+    width: 180px; 
+    text-align: center;
 }
 .create-account-iz:hover {
     background-color: blue;
@@ -26,7 +30,7 @@ flex-grow: 1;
 .login-button-iz:hover {
     background-color: gray;
     text-decoration: underline;
-    width: 185px; 
+     
     text-align: center; 
 }
 div {
@@ -34,9 +38,11 @@ div {
 }
 .check{
     background-color: transparent;
-    border: 2px solid blue;
+    border: 1px solid blue;
     text-decoration: none;
     margin: 0 auto;
+    border-radius: 5px;
+    padding: 3px;
 }
 .box-white {
     background-color: white;
