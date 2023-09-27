@@ -40,28 +40,11 @@ body {
   border: 2px solid blue;
   text-decoration: none;
   margin: 10 px;
-  width: 180px;
-  text-align: center;
-}
-.caja-principal .lado-izquierdo .button-iz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .caja-principal .lado-izquierdo .login-button-iz {
   text-decoration: none;
   margin: 0 auto;
-}
-.caja-principal .lado-izquierdo .create-account-iz:hover {
-  background-color: blue;
-  color: white;
-  text-decoration: underline;
-}
-.caja-principal .lado-izquierdo .login-button-iz:hover {
-  background-color: gray;
-  text-decoration: underline;
-  width: 185px;
-  text-align: center;
+  display: block;
 }
 .caja-principal .lado-izquierdo div {
   margin: 10px;
@@ -76,28 +59,6 @@ body {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
 }
-.caja-principal .lado-izquierdo .box-popular {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  border: 2px solid rgb(233, 232, 232);
-  flex-direction: column;
-  overflow: auto;
-  text-decoration: none;
-}
-.caja-principal .lado-izquierdo ul > li:hover {
-  background-color: gray;
-  text-decoration: underline;
-}
-.caja-principal .box-popular > a:hover {
-  background-color: gray;
-  text-decoration: underline;
-}
-.caja-principal .check:hover {
-  background-color: blue;
-  color: white;
-  text-decoration: underline;
-}
 .caja-principal main {
   border: 2px solid red;
   flex-grow: 4;
@@ -105,7 +66,6 @@ body {
 .caja-principal .lado-derecho {
   border: 2px solid black;
   flex-grow: 2;
-  max-width: 25%;
 }
 .caja-principal .aside {
   border: 1px;
@@ -116,3 +76,31 @@ body {
 .caja-principal .aside p {
   text-align: center;
 }/*# sourceMappingURL=styles.css.map */
+
+.RLT{
+  flex-direction: row;
+  margin: 20px;
+  position: relative;
+}
+
+.imagen-medio{
+  padding: 20px;
+  margin: 20px;
+}
+
+.imagen-2-medio{
+  padding:3%;
+  position: absolute;
+  width: 30%;
+  left:  25%;
+  
+}
+
+.dev-community{
+  padding: 9%;
+}
+
+.parrafo{
+  padding: 20%;
+  margin: -3px;
+}
