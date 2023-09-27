@@ -1,13 +1,15 @@
 #logo {
-  border: 1px solid red;
+  border: 1px solid rgb(231, 228, 228);
+  margin-left: 10%;
 }
 
 body {
   background-color: rgb(233, 232, 232);
 }
 
+/*header*/
 .header {
-  background-color: beige;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,22 +19,39 @@ body {
   padding: 0.5rem;
   overflow: normal;
   background-color: transparent;
+  text-decoration: none;
 }
 .header .create-account {
   padding: 0.5rem;
   overflow: normal;
   background-color: transparent;
   border: 2px solid blue;
+  text-decoration: none;
+}
+.header .login-button:hover {
+  background-color: rgb(151, 189, 246);
+  color: blue;
+  text-decoration: underline;
+}
+.header .create-account:hover {
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
 }
 
+/*_______________*/
 .caja-principal {
-  border: 2px solid black;
+  border: 2px solid rgb(231, 228, 228);
   display: flex;
   width: 80%;
   margin: 0 auto;
+  /* lado izquierdo */
+  /*________________*/
+  /* central */
+  /*_____________*/
 }
 .caja-principal .lado-izquierdo {
-  border: 2px solid black;
+  border: 2px solid rgb(231, 228, 228);
   flex-grow: 1;
 }
 .caja-principal .lado-izquierdo .create-account-iz {
@@ -75,6 +94,7 @@ body {
 .caja-principal .lado-izquierdo .box-white {
   background-color: white;
   border: 2px solid rgb(231, 228, 228);
+  padding: 10px;
 }
 .caja-principal .lado-izquierdo .box-popular {
   display: flex;
@@ -83,36 +103,136 @@ body {
   border: 2px solid rgb(233, 232, 232);
   flex-direction: column;
   overflow: auto;
+}
+.caja-principal .lado-izquierdo .box-popular a {
   text-decoration: none;
+  color: black;
 }
 .caja-principal .lado-izquierdo ul > li:hover {
   background-color: gray;
   text-decoration: underline;
 }
-.caja-principal .box-popular > a:hover {
+.caja-principal .lado-izquierdo .box-popular > a:hover {
   background-color: gray;
   text-decoration: underline;
 }
-.caja-principal .check:hover {
+.caja-principal .lado-izquierdo .check:hover {
   background-color: blue;
   color: white;
   text-decoration: underline;
 }
+.caja-principal .lado-izquierdo ul li > a {
+  text-decoration: none;
+  color: black;
+}
 .caja-principal main {
-  border: 2px solid red;
+  border: 2px solid rgb(231, 228, 228);
   flex-grow: 4;
 }
-.caja-principal .lado-derecho {
-  border: 2px solid black;
-  flex-grow: 2;
-  max-width: 25%;
+.caja-principal .central {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
 }
-.caja-principal .aside {
-  border: 1px;
+.caja-principal .central .imgc {
+  width: 100%;
+  max-width: 450px;
+}
+.caja-principal .central .bc > a {
+  height: 50px;
   text-decoration: none;
-  color: blue;
-  text-align: center;
+  color: black;
+  margin: 10px;
 }
-.caja-principal .aside p {
-  text-align: center;
+.caja-principal .central .bc > a:hover {
+  background-color: white;
+  color: blue;
+}
+.caja-principal .central .textcc {
+  margin: 10px;
+}
+.caja-principal .central .textcc a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .central .textcc a:hover {
+  color: blue;
+}
+.caja-principal .central .box-white {
+  background-color: white;
+  border: 2px solid rgb(231, 228, 228);
+  padding: 20px;
+  border-radius: 5px;
+}
+.caja-principal .central .textf {
+  margin: 10px;
+}
+.caja-principal .lado-derecho {
+  border: 2px solid rgb(231, 228, 228);
+  flex-grow: 2;
+}
+.caja-principal .lado-derecho p > a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .lado-derecho h3 > a {
+  text-decoration: none;
+  color: black;
+}
+.caja-principal .lado-derecho p > a:hover {
+  color: blue;
+}
+.caja-principal .lado-derecho h3 > a:hover {
+  color: blue;
+}
+.caja-principal aside .box-white {
+  border: solid 1px #eee;
+  text-decoration: none;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .lado-izquierdo {
+    visibility: hidden;
+  }
+  .caja-principal {
+    width: 100%;
+  }
+  .lado-izquierdo {
+    position: fixed;
+  }
+  .lado-derecho {
+    position: fixed;
+    visibility: hidden;
+  }
+  .login-button {
+    position: fixed;
+    visibility: hidden;
+  }
+  .create-account {
+    margin-right: 150px;
+  }
+}
+@media (max-width: 450px) {
+  .lado-izquierdo {
+    visibility: hidden;
+  }
+  .caja-principal {
+    width: 100%;
+  }
+  .lado-izquierdo {
+    position: fixed;
+  }
+  .lado-derecho {
+    visibility: hidden;
+  }
+  .login-button {
+    position: fixed;
+    visibility: hidden;
+  }
+  .create-account {
+    margin-right: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
