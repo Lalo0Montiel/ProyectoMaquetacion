@@ -1,5 +1,8 @@
+* {
+  font-family: "open sans";
+}
+
 #logo {
-  border: 1px solid rgb(231, 228, 228);
   margin-left: 10%;
 }
 
@@ -119,6 +122,9 @@ body {
   color: white;
   text-decoration: underline;
 }
+.lado-izquierdo ul {
+  list-style: none;
+}
 .lado-izquierdo ul li > a {
   text-decoration: none;
   color: black;
@@ -135,6 +141,7 @@ main {
   flex-grow: 3;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 .central .imgc {
   width: 100%;
